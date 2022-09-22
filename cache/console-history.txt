@@ -1,0 +1,6 @@
+await distr.payout({gasPrice: 100, gasLimit: 300000})
+const distr = await Contract.attach("0x545eE9dc5562F92fB29599B545c39E80514cE1FE")
+const Contract = await ethers.getContractFactory("Distributor");
+await distr.payout({gasPrice: 100, gasLimit: 300000})
+const distr = await Contract.attach("0x6BBd7751Bd4539D89b52B2987D68Fef6b54907E5")
+const Contract = await ethers.getContractFactory("Distributor");
